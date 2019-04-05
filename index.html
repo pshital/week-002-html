@@ -1,19 +1,51 @@
 <html>
-    <head>
-            <title>myFirst HTML Page </title>
-    </head>
+
+<head>
+    <title>myFirst HTML Page </title>
+    <link rel="stylesheet" type=""text/css" href="style.css">
+    
+</head>
 
 
-    <body>
-            <h1>My ToDo Application</h1>
-            <form>
-                    <input type="text" name="Add">
-                    <input type="ADD" value="ADD">
-                    <p>Things to do :</p>
+<body>
+    <h1 id="heading">My ToDo Application</h1>
+    
+    <form>
+        <table>
+            <tr>
+                <td>  
+                <input type="text" name="nAdd">
+            </td>  
+            <td>
+                    <input type="button" value="ADD">
+                </td>
+            </tr>
+            
+        </table>
+        <p>Things to do : 2</p>
+        <table>
+            <tr class="task-row">
+                <td>A First task
+                    <input type="submit" value="Delete">
+                    <input type="submit" value="Done">
+                </td>
+            </tr>
+            <tr id = "middle-task">
+                <td>A Second task
+                    <input type="submit" value="Delete">
+                    <input type="submit" value="Done">
+                </td>
+            </tr>
+            <tr class = "task-row">
+                    <td>A third task
+                        <input type="submit" value="Delete">
+                        <input type="submit" value="Done">
+                    </td>
+                </tr>
+        </table>
+    </form>
 
 
-            </form>   
-             
+</body>
 
-    </body>
 </html>
